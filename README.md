@@ -1,4 +1,13 @@
 
+# Credit Card Fraud Detection
+
+A brief description of what this project does and who it's for
+
+
+## Deployment
+
+Before starting the kafka server we need to start the zookeeper server first :
+
 ```bash
   nohup bin/zookeeper-server-start.sh config/zookeeper.properties >> nohup.out &
 ```
